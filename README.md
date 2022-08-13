@@ -10,7 +10,7 @@ The app has 3 API end points:
 /palindromes/history which returns all the palindromes sent in through the palindrome<input> endpoint
 
 ## To run the app:
-* create a pipenv or venv and run ```pip install```
+* create a pipenv shell run ```pipenv install```
 * run ```python app.py``` and the app will run on the local server
 * to use the first and third api end points (both GET requests) make the request from the browser
 * to use the file upload end point you will need either Thunder Client or Postman - please send the file as Form \ Form Data (files) and the input variable for the file is "upload_file"
